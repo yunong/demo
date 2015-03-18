@@ -1,0 +1,53 @@
+[2014-12-10T21:04:18.251Z]  INFO: shakti/restify-audit/21152 on shakti-prod-i-97f6627b: handled: 200 (req_id=16c66e20-80b0-11e4-9f6b-cf625d17b873, audit=true, latency=7003, secure=true, _audit=true, req.version=*)
+    GET /?locale=en-US&nmrs=1418245445135 HTTP/1.1
+    host: www.netflix.com
+    x-netflix.appinfo.name: SHAKTI
+    accept-language: pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4
+    x-forwarded-for: 129.170.194.148
+    x-forwarded-port: 443
+    x-netflix.edge.server.timestamp: 1418245446126
+    accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    x-netflix.client-host: www.netflix.com
+    user-agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36
+    x-forwarded-proto: https
+    x-forwarded-host: www.netflix.com
+    netflix.nfhttpclient.version: 1.0
+    x-netflix-httpclientname: shakti-prod
+    --
+    HTTP/1.1 200 OK
+    x-netflix.client.instance: i-97f6627b
+    x-frame-options: DENY
+    content-type: text/html
+    --
+    req.timers: {
+      "bunyan": 3539,
+      "reqResTracker": 351,
+      "resLocals": 55,
+      "parseQueryString": 4015,
+      "instanceHeaders": 1929,
+      "xForwardedProto": 98,
+      "httpsRedirector": 3353,
+      "readBody": 225,
+      "parseBody": 43,
+      "xframe": 36,
+      "restifyCookieParser": 442,
+      "springbank": 46,
+      "requestContextFp": 3262457,
+      "membershipStatus": 211,
+      "fetchModels": 111865,
+      "htmlContentType": 205,
+      "redirectInAppToEcWeb": 1250,
+      "globalPageRedirect": 51,
+      "openSiteRedirectOrDisplay": 54,
+      "moneyballModeRedirects": 141,
+      "nonMemberContext": 106,
+      "setContextData": 3266,
+      "evidonSetup": 96,
+      "continuumImgUrls": 110,
+      "controlTemplateImgUrls": 190,
+      "ethnioSetup": 6234,
+      "addCspHeader": 43,
+      "redirectCurrentMember": 33,
+      "interimEcWebInterceptor": 270,
+      "render": 3575516
+    }
