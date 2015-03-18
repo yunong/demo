@@ -1,1 +1,0 @@
-dtrace -s ./latency.d
