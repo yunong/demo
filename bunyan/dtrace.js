@@ -1,5 +1,4 @@
 var bunyan = require('bunyan');
-var fs = require('fs');
 
 var log = bunyan.createLogger({
     name: 'demo',
